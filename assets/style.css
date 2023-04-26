@@ -1,0 +1,32 @@
+header {
+    background-color: blueviolet;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 90%;
+}
+
+.city-search {
+    justify-content: left;
+    float: left;
+
+}
+
+.weather-display {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    height: 100%;
+}
+
+.five-days {
+    justify-content: right;
+}
