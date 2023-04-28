@@ -104,5 +104,5 @@ function getFiveDaysApi() {
 }
 
 
-//searchButton.addEventListener("click", getWeatherApi);
+searchButton.addEventListener("click", getWeatherApi);
 
