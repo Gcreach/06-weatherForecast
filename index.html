@@ -12,35 +12,81 @@
     <header>
         <h1>Weather Forecast</h1>
     </header>
-   <main class="container"> 
+   <main class="container-fluid"> 
+    <div class="row">
+      <div class="col-lg-4">
     <div class="city-search">
-      <div>
         <h3>Search for a city</h3>
         <input  name="search" id="search" type="text" class="search-input"/>
-        <button type="submit" class="search-button">Search</button>
+        <div class="d-grid gap-2 p-4">
+          <button class="btn btn-primary" type="button">Search</button>
+        </div>
         <h2 class="subtitle">Showing Repositories for: <span id="repo-search-term"></span></h2>
     </div>
   </div>
+ 
 
-    <div>
+    <div class="col-lg-8">
         <div class="weather-display">
             <div class="card-header col-12 col-sm-6 col-lg-4 mb-3">
-              Featured
+              City (date)
             </div>
             <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text">Temp: </p>
+              <p class="card-text">Wind: </p>
+              <p class="card-text">Humidity: </p>
             </div>
           </div>
-    </div>
-   <section class="row justify-content-center">
-    <div class="five-days bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
+    
+    <div class="container">
+    
+   <section class="row">
+    <div class="col">
         <div class="card-body">
-          <h5 class="card-title">Primary card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">City: </h5>
+          <p class="card-text">Temp: </p>
+          <p class="card-text">Wind: </p>
+          <p class="card-text">Humidity: </p>
         </div>
-      </section> 
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title">City: </h5>
+          <p class="card-text">Temp: </p>
+          <p class="card-text">Wind: </p>
+          <p class="card-text">Humidity: </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title">City: </h5>
+          <p class="card-text">Temp: </p>
+          <p class="card-text">Wind: </p>
+          <p class="card-text">Humidity: </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title">City: </h5>
+          <p class="card-text">Temp: </p>
+          <p class="card-text">Wind: </p>
+          <p class="card-text">Humidity: </p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title">City: </h5>
+          <p class="card-text">Temp: </p>
+          <p class="card-text">Wind: </p>
+          <p class="card-text">Humidity: </p>
+        </div>
+  
+      </section>
+    </div>
+    </div>
+  </div>
     </main>
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>

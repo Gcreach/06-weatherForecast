@@ -22,11 +22,16 @@ main {
 .weather-display {
     margin-right: 20px;
     padding: 20px;
-    float: right;
+    float: center;
     width: 20%;
     height: 100%;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: darkgray;
 }
 
 .five-days {
     justify-content: right;
+    flex-wrap: wrap;
+    background-color: rgb(59, 59, 189);
 }
