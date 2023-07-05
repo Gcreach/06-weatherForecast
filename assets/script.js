@@ -70,7 +70,7 @@ function getWeatherApi(lat, lon) {
 
 function getGeoApi(cityName) {
 
-    var requestUrl = 'http://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&appid=87e65aeff8380c1792c5b0b66b79ef3d';
+    var requestUrl = 'https://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&appid=87e65aeff8380c1792c5b0b66b79ef3d';
 
     saveToStorage(cityName);
 
@@ -104,7 +104,7 @@ function displayWeather(weatherData) {
 
 function getFiveDaysApi(lat, lon) {
 
-    var requestUrl = 'http://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&appid=87e65aeff8380c1792c5b0b66b79ef3d&units=imperial';
+    var requestUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&appid=87e65aeff8380c1792c5b0b66b79ef3d&units=imperial';
 
 
     fetch(requestUrl)
