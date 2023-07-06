@@ -41,10 +41,11 @@ function loadSearch() {
     //if (searchList) {
     for (var i = 0; i < searchList.length; i++) {
         //button for the search items
-       $(`<button class="btn btn-primary btn-lg" id="button-${i}" type="button"></button>`).text(searchList[i]).appendTo(searchTermEl);
+      var srchBtn = $(`<button class="btn btn-primary btn-lg" id="button-${i}" type="button"></button>`).text(searchList[i]).attr("onclick", "getSearch('" + searchList[i] + "')").appendTo(searchTermEl);
       // $(`button-${i}`).on("click", getSearch(searchList[i]));
        console.log(searchList[i]);
     }
+    
 //}
 }
 
